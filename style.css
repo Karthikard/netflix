@@ -1,87 +1,82 @@
-#heading{
-    font-size: 32px;
-    line-height:40px ;
-    font-family: ;
-    margin: 0 20 0 20;
+*{
+  box-sizing: border-box;
 }
-
-.topblack{
-    background-color: black;
-    text-align: left;
-    position: relative;
+.image{
+  background-repeat: no-repeat;
+  opacity: 5;
+  display: block;
+  background-size: cover;
+  position: absolute;
+  height: 100;
+  width: 100%;
+  z-index: -1;
+  top: "10%";
+    left:0;
+    right:0;
+    margin:0 auto;
+    border: solid;
 }
-.button{
-    background-color: black;
-    padding: 40 10 80 50;
-    
+.box{
+  background-color: rgba(0,0,0,.75);
+  width: 400px;
+  height: 500px;
+  padding: 50px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
 }
-.body{
-    margin: 0 20 0 20;
+.form{
+  width: 40px;
+  height: 40;
+}
+.sstyle{
+  color: white;
+  font-size: 40px;
+}
+.email{
+  width: 80px;
+  height: 50px;
+ 
+}
+.password{
+  height: 50px;
+}
+.signbotton{
+  color: white;
+  background-color: red;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 1000;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.remember{
+  color: rgb(205, 218, 218);
 }
 .footer{
-    position: relative;
-    display: inline;
-    left: 60%;
-    padding: 25px;
-    bottom: 50px;
-   
+  position: absolute;
+  background-color: black;
+  height: 100px;
+ padding: 40 50 20 50px;
 }
-.buttontop{
-   position: absolute;
-   left: 80%;
-   bottom: 30px;
-    background-color: black;
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid white;
-    cursor: pointer;
+footer{
+  background-color: rgba(0,0,0,.75);
+  height: 300px;
+  padding: 40 50 20 50px;
+  position: absolute;
+  bottom: -55%;
+  width: 100%;
+  
 }
-.buttontop:hover{
-    background-color: white;
-}
-.signin{
-    position: absolute;
-    left: 90%;
-    padding: 12px;
-    bottom: 30px;
-    background-color: red;
-    font-size: 15px;
-   
-    text-align: center;
-    border: 1px solid white;
-}
-.signin:hover{
-    background-color: white;
-}
-.help{
-    position: absolute;
-    left:200px;
-    bottom: 38%;
-    font-size: 28px;
-}
-.each{
-    padding: 8px;
-    display: inline;
-    color: gray;
-    
-}
-#language{
-    padding: 15 100 15 15;
-    font-size: 20px;
-    background-color:black;
-    color:gray ;
-}
-.home{
-    position: relative;
-    margin: 0 20 0 20;
-    padding: 20px;
-}
-.print{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    position: relative;
-    left: 90%;
-    bottom: 40px;
+footer .footer-left-container{
+  padding: 10px;
+  font-size: 10px;;
+  width: 100px;
+  background-color: rgba(0,0,0,.75);
+  color: white;
+  border-color: white;
+  pos
 }
